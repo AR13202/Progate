@@ -1,0 +1,115 @@
+body {
+	margin: 0 auto;
+	overflow-x: hidden;
+	background-color: rgb(19,12,63);
+}
+li {
+  font-family: "comic sans ms";
+  list-style: none;
+}
+table {
+	border: collapse;
+	width: 100%;
+}
+td {
+	width: 50%;
+	height: auto;
+}
+.header {
+  background-color: rgb(18,13,65);
+  color: #fff;
+  height: 90px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}
+.header-list li:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header-logo {
+  float: left;
+  font-size: 72px;
+  padding: 0px 20px;
+}
+
+.header-list li {
+  float: right;
+  padding: 20px 20px;
+  padding-right: 40px;
+}
+.Photo {
+	padding-right: 110px;
+}
+.Project-title {
+	margin-left: 40px;
+	padding-top: 20px;
+	font-size: 40px;
+	font-family: "Avenir Next"; 
+	height: auto;
+	color: white;
+	padding-bottom: 50px;
+}
+.Project-title h3{
+	font-size: 60px;
+	font-family: "comic sans ms"; 
+	text-align: center;
+}
+
+.bio-header {
+	font-family: "comic sans ms";
+	font-size: 40px;
+	width: 50%;
+	color: white;
+}
+.bio-content {
+	font-family: "comic sans ms";
+	font-size: 20px;
+	width: 50%;
+	color: white;
+}
+
+.ski-header {
+	font-family: "comic sans ms";
+	font-size: 40px;
+	width: 50%;
+	color: white;
+}
+.ski-content {
+	font-family: "comic sans ms";
+	font-size: 20px;
+	width: 50%;
+	color: white;
+}
+.Hobb-header {
+	font-family: "comic sans ms";
+	font-size: 40px;
+	width: 50%;
+	color: white;
+}
+.Hobb-content {
+	font-family: "comic sans ms";
+	font-size: 20px;
+	width: 50%;
+	color: white;
+}
+.footer {
+	background-color: rgb(18,13,65);
+	width: 100%;
+	height: auto;
+	color: white;
+	font-size: 40px;
+	font-family: "comic sans ms";
+}
+.ftable {
+	width: 100%;
+	height: auto;
+}
+.bimage {
+	background-color: rgb(19,12,63);
+}
+.content {
+	background-image: url(img2.JPG);
+	background-size: cover; 
+	opacity: 0.8;
+}
